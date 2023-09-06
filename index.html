@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old is Gold - Vintage Shopping</title>
+    <style>
+        /* Reset some default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Apply a background image */
+        body {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        /* Product section styles */
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .product {
+            background-color: rgba(255, 255, 255, 0.8);
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: calc(33.33% - 20px); /* Three columns per row */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Call to action button */
+        .cta-button {
+            background-color: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            text-decoration: none;
+        }
+
+        .cta-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Old is Gold - Vintage Shopping</h1>
+        <p>Discover the beauty of the past through our curated collection.</p>
+        <a href="#" class="cta-button">Shop Now</a>
+    </header>
+
+    <div class="products">
+        <div class="product">
+            <img src="1st.jpg" alt="Vintage Item 1">
+            <h2>Antique Clock</h2>
+            <p>Beautiful vintage clock in working condition.</p>
+            <p>$99.99</p>
+        </div>
+        <div class="product">
+            <img src="2nd.jpg" alt="Vintage Item 2">
+            <h2>Retro Record Player</h2>
+            <p>A classic record player for vinyl enthusiasts.</p>
+            <p>$249.99</p>
+        </div>
+        <div class="product">
+            <img src="3rd.jpg" alt="Vintage Item 3">
+            <h2>Vintage Typewriter</h2>
+            <p>A piece of history for writers and collectors.</p>
+            <p>$149.99</p>
+        </div>
+        
+    </div>
+</body>
+</html>
